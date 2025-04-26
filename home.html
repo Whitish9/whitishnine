@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WhitishNine Home </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+<style>
+	body {
+			background-image: url('wallpaper.png');
+			background-repeat:no-repeat;
+			background-size:auto;
+		}
+	.navbar {
+				border-radius: 0;
+				background-color:#C32927;
+				font-color: white;
+			}
+	.navbar-inverse .navbar-nav > li > a,
+	.navbar-inverse .navbar-brand {
+    color: #ffffff;
+  }
+
+	.navbar-inverse .navbar-nav > li > a:hover,
+	.navbar-inverse .navbar-brand:hover {
+				color: #66a3ff;
+	}
+  
+	label {
+			color: #ffffff;
+		}
+		
+
+	.nav-tabs > li > a {
+		background-color: #C32927;
+		color:white;
+		}
+	.nav-tabs > li.active > a,
+	.nav-tabs > li.active > a:focus,
+	.nav-tabs > li.active > a:hover {
+		background-color: #4d4dff;
+		color: white;
+		}
+	
+	.nav-tabs > li > a:hover {
+		background-color: #4d4dff;
+		color; white;
+		}
+	
+	.tab-content {
+		background-color: white;
+		color: black;
+		padding:20px;
+		border-radius: 4px;
+		font-family: Impact;
+		}
+	
+	p {
+		font-family: Arial;
+		}
+
+</style>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" style="margin-top:20px;">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">WhitishNine</a>
+		</div>
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Videos</a></li>
+			<li><a href="#">About</a></li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="index.html"><span class="glyphicon glyphicon-log-out"></span> Sign Out </a></li>
+		</ul>
+	</div>
+</nav>
+
+<div class="container">
+	<ul class="nav nav-tabs">
+		<li class="active"><a data-toggle="tab" href="#page1">Archives</a></li>
+		<li><a data-toggle="tab" href="#page2">Arcade </a></li>
+		<li><a data-toggle="tab" href="#page3">Youtube Channel</a></li>
+	</ul>
+	
+	<div class="tab-content">
+		<div id="page1" class="tab-pane fade in active">
+			<h3>Archives</h3>
+			<p> WhitishNine is a Filipino Youtuber that plays a wide range of games and makes Game Music Videos</p>
+		</div>
+		<div id="page2" class="tab-pane fade">
+			<h3>Arcade</h3>
+			<p>Games Whitish9 Plays
+				<ul style="font-family:Arial;">
+					<li> League Of Legends </li>
+					<li> Valorant </li>
+					<li> Minecraft </li>
+					<li> Project Zomboid </li>
+					<li> Pokemon </li>
+					<li> Sea of Thieves </li>
+					<li> Single Player Games </li>
+				</ul>
+			</p>
+		</div>
+		<div id="page3" class="tab-pane fade">
+			<h3>Link for Channel</h3>
+			<p> https://www.youtube.com/@whitishnine9899</p>
+		</div>
+</div>
+
+<button data-toggle="collapse" data-target="#demo" type="button" class="btn btn-primary" style="background-color:#C32927; margin-top:50px;">Sample Video </button>
+<div id="demo" class="collapse">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/7TO90w5Auxg" frameborder="0" allowfullscreen></iframe>
+</div>
+	
